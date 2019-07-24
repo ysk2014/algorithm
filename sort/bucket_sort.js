@@ -21,6 +21,8 @@
  * 参考： https://dailc.github.io/2016/12/03/baseKnowlenge_algorithm_sort_bucketSort.html
  */
 
+const insertionSort = require('./insertion_sort');
+
 function bucketSort(arr, bucketSize = 5) {
     if (arr.length === 0) {
         return arr;
@@ -58,3 +60,5 @@ function bucketSort(arr, bucketSize = 5) {
 
     return res;
 }
+
+module.exports = bucketSort;
