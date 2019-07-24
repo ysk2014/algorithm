@@ -12,6 +12,8 @@
  * 时间复杂度（最优）：O(nlogn)
  * 空间复杂度：O(nlogn)
  * 稳定性：不稳定
+ *
+ * 参考：http://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html
  */
 
 function quickSort(arr) {
