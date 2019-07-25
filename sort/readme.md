@@ -20,6 +20,8 @@
 | 堆排序   | O(nlogn)                | O(nlogn)           | O(nlogn)           | O(1)       | 不稳定 | in-place  |
 |          |                         |                    |                    |            |        |           |
 | 桶排序   | O(n+k)                  | O(n^2)             | O(n+k)             | O(n+k)     | 稳定   | in-place  |
+| 计数排序 | O(n+k)                  | O(n+k)             | O(n+k)             | O(n+k)     | 稳定   | in-place  |
+| 基数排序 | O(n\*k)                 | O(n\*k)            | O(n\*k)            | O(n+k)     | 稳定   | in-place  |
 
 ## 相关概念
 
