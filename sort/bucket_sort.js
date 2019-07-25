@@ -54,7 +54,7 @@ function bucketSort(arr, bucketSize = 5) {
     for (i = 0; i < buckets.length; i++) {
         insertionSort(buckets[i]); // 对每个桶进行排序，这里使用了插入排序
         for (var j = 0; j < buckets[i].length; j++) {
-            arr.push(buckets[i][j]);
+            res.push(buckets[i][j]);
         }
     }
 

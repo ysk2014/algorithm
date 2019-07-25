@@ -16,6 +16,8 @@
 | 选择排序 | O(n^2)                  | O(n^2)             | O(n^2)             | O(1)       | 不稳定 | in-place |
 | 希尔排序 | depends on gap sequence | O(n(log(n))^2)     | O(nlog(n))         | O(1)       | 不稳定 | in-place |
 | 快速排序 | O(nlogn)                | O(nlogn)           | O(n²)              | O(nlogn)   | 不稳定 | in-place |
+|          |                         |                    |                    |            |        |          |
+| 桶排序   | O(n+k)                  | O(n^2)             | O(n+k)             | O(n+k)     | 稳定   | in-place |
 
 ## 相关概念
 
