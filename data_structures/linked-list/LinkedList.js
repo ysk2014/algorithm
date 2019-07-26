@@ -203,6 +203,10 @@ class LinkedList {
         return nodes;
     }
 
+    /**
+     * @param {function} [callback]
+     * @return {string}
+     */
     toString(callback) {
         return this.toArray().map(node => node.toString(callback).toString);
     }
