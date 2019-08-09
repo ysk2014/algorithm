@@ -4,6 +4,7 @@
  * [16] 最接近的三数之和
  */
 /**
+ * 排序+双指针
  * @param {number[]} nums
  * @param {number} target
  * @return {number}
