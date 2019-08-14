@@ -4,6 +4,7 @@
  * [18] 四数之和
  */
 /**
+ * 解法与三数之和思路相同，唯一不同时多一层循环，固定两位数字，用双指针寻找第三位及第四位数字。
  * @param {number[]} nums
  * @param {number} target
  * @return {number[][]}
